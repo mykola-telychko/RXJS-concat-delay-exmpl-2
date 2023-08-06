@@ -2,6 +2,8 @@ import './style.css';
 import { concat, empty } from 'rxjs';
 import { delay, startWith } from 'rxjs/operators';
 
+// doc: https://www.learnrxjs.io/learn-rxjs/operators/combination/concat
+
 // elems
 const userMsg = document.getElementById('message');
 const delayedTime = 1000;
